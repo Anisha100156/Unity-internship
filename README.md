@@ -1,26 +1,67 @@
-## Unity Internship Project
--This is a project that I have created which shows a clean and interactive UI that allows the generation of student Id card by filling up a dynamic form.I have created this project in Replic using ReactJs. I have got in depth knowledge in front end design by using TailwindCSS and user principles.
-### Understand the Objectives
--What is the problem statement
--Getting to know about the target users of the website
--Deciding upon the UI components and the color theme
--How to add up the functionalities yet visually appealing
-### Choosing Tech stack
--ReactJs for building the component architecture and layout
--Tailwind CSS to design the frontend
--Framer motion to add up the subtle animation
-### Componentization
--The major task for me was to build up the components that are to be reused multiple times
-Components are
--Cards
--Forms
--Switch
--Button
--Here i have managed the props, managed local state and worked upon the functionalities.
-### Image upload with preview feature
--It was a challenging part to make the preview of the image 
--But by reading several articles and documentations I managed to implement the image preview part
--Here the users can see the image in preview which will aloow them to look at the image in circular frame and change them if not satisfactory
+# 🎓 Unity Internship Project
 
+This is a project I developed showcasing a clean and interactive UI that allows the generation of a **Student ID Card** by filling out a dynamic form.  
+I built this project using **React.js** on **Replit**, gaining in-depth knowledge of frontend development with **Tailwind CSS** and **UI/UX principles**.
 
+---
 
+## 🎯 Objectives
+
+- Understand the problem statement
+- Identify the target users of the platform
+- Decide on UI components and a visually appealing color theme
+- Add essential functionalities without compromising design
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Component-based frontend architecture
+- **Tailwind CSS** – Utility-first CSS framework for modern UI
+- **Framer Motion** – For subtle, smooth animations
+
+---
+
+## 🧩 Componentization
+
+One of the core tasks was breaking the UI into reusable components, each with specific responsibilities. These include:
+
+- **Card** – Displays the preview of the ID
+- **Form** – Dynamic input fields to gather user data
+- **Toggle Switch** – Controls options like dark/light mode or QR visibility
+- **Button** – Triggers actions like generate, download, etc.
+
+In each component, I effectively:
+
+- Managed props and local state
+- Ensured responsive behavior
+- Added functional interactivity
+
+---
+
+## 🖼️ Image Upload with Preview
+
+This feature allows users to:
+
+- Upload an image and instantly preview it within a **circular frame**
+- Modify or replace the image if needed before final submission
+
+Implementing the real-time preview was a challenging yet rewarding experience, achieved by referring to official documentation and community articles.
+
+---
+
+## 🗂️ Local Image Storage & QR Code Generation
+
+- Uploaded images are stored locally for seamless reuse
+- A **QR Code** is generated dynamically based on user input
+- The QR code can be **downloaded as an image**, enabling modern, tech-enhanced identification
+
+---
+
+## ✅ Key Takeaways
+
+This project helped me strengthen my frontend skills, understand user-centric design, manage React state and props, and integrate media/file-based features into a live web app. It’s a practical step forward in building production-level UIs.
+
+---
+
+Feel free to explore the code, suggest improvements, or try the live demo
