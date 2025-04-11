@@ -1,2 +1,9 @@
-main {
+/* src/App.css */
+body {
+  @apply bg-gray-100 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+input, select {
+  @apply border border-gray-300 rounded px-2 py-1;
 }
