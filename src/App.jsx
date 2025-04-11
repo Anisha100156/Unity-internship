@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import QRCodeReact from "qrcode.react";
+import QRCode from "qrcode.react";
 import "./App.css";
 
 export default function App() {
@@ -156,7 +156,7 @@ export default function App() {
           </p>
 
           <div className="mt-4">
-            <QRCodeReact value={JSON.stringify(formData)} />
+            <QRCode value={JSON.stringify(formData)} />
           </div>
         </div>
       )}
